@@ -11,6 +11,7 @@
 body {
     display: grid;
     justify-content: center;
+    width: 100%;
     height: 100vh;
     align-items: center;
 }
@@ -44,4 +45,27 @@ button:focus{
 
 .no {
     background-color: red;
+}
+
+@media (max-width: 1080px){
+
+    img{
+        height: 17em;
+        transform: translate(-50%,-50%);
+        margin-top: 50%;
+        margin-left: 50%;
+    }
+
+    h1{
+        font-size: 1.7em;
+    }
+    .chs{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .chs button{
+        width: 3em;
+    }
 }
